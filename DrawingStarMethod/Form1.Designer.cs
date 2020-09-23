@@ -40,9 +40,10 @@
             // 
             // drawButton
             // 
-            this.drawButton.Location = new System.Drawing.Point(369, 90);
+            this.drawButton.Location = new System.Drawing.Point(490, 363);
+            this.drawButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.drawButton.Name = "drawButton";
-            this.drawButton.Size = new System.Drawing.Size(71, 31);
+            this.drawButton.Size = new System.Drawing.Size(95, 38);
             this.drawButton.TabIndex = 0;
             this.drawButton.Text = "Draw";
             this.drawButton.UseVisualStyleBackColor = true;
@@ -51,56 +52,63 @@
             // xLabel
             // 
             this.xLabel.AutoSize = true;
-            this.xLabel.Location = new System.Drawing.Point(347, 14);
+            this.xLabel.Location = new System.Drawing.Point(463, 17);
+            this.xLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.xLabel.Name = "xLabel";
-            this.xLabel.Size = new System.Drawing.Size(14, 13);
+            this.xLabel.Size = new System.Drawing.Size(17, 17);
             this.xLabel.TabIndex = 1;
             this.xLabel.Text = "X";
             // 
             // yLabel
             // 
             this.yLabel.AutoSize = true;
-            this.yLabel.Location = new System.Drawing.Point(347, 41);
+            this.yLabel.Location = new System.Drawing.Point(463, 50);
+            this.yLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.yLabel.Name = "yLabel";
-            this.yLabel.Size = new System.Drawing.Size(14, 13);
+            this.yLabel.Size = new System.Drawing.Size(17, 17);
             this.yLabel.TabIndex = 2;
             this.yLabel.Text = "Y";
             // 
             // sizeLabel
             // 
             this.sizeLabel.AutoSize = true;
-            this.sizeLabel.Location = new System.Drawing.Point(269, 67);
+            this.sizeLabel.Location = new System.Drawing.Point(359, 82);
+            this.sizeLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sizeLabel.Name = "sizeLabel";
-            this.sizeLabel.Size = new System.Drawing.Size(92, 13);
+            this.sizeLabel.Size = new System.Drawing.Size(125, 17);
             this.sizeLabel.TabIndex = 3;
             this.sizeLabel.Text = "Size (pixel square)";
             // 
             // xInput
             // 
-            this.xInput.Location = new System.Drawing.Point(369, 11);
+            this.xInput.Location = new System.Drawing.Point(492, 14);
+            this.xInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.xInput.Name = "xInput";
-            this.xInput.Size = new System.Drawing.Size(71, 20);
+            this.xInput.Size = new System.Drawing.Size(93, 22);
             this.xInput.TabIndex = 4;
             // 
             // yInput
             // 
-            this.yInput.Location = new System.Drawing.Point(369, 38);
+            this.yInput.Location = new System.Drawing.Point(492, 47);
+            this.yInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.yInput.Name = "yInput";
-            this.yInput.Size = new System.Drawing.Size(71, 20);
+            this.yInput.Size = new System.Drawing.Size(93, 22);
             this.yInput.TabIndex = 5;
             // 
             // sizeInput
             // 
-            this.sizeInput.Location = new System.Drawing.Point(369, 64);
+            this.sizeInput.Location = new System.Drawing.Point(492, 79);
+            this.sizeInput.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.sizeInput.Name = "sizeInput";
-            this.sizeInput.Size = new System.Drawing.Size(71, 20);
+            this.sizeInput.Size = new System.Drawing.Size(93, 22);
             this.sizeInput.TabIndex = 6;
             // 
             // fillButton
             // 
-            this.fillButton.Location = new System.Drawing.Point(369, 127);
+            this.fillButton.Location = new System.Drawing.Point(490, 409);
+            this.fillButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fillButton.Name = "fillButton";
-            this.fillButton.Size = new System.Drawing.Size(71, 31);
+            this.fillButton.Size = new System.Drawing.Size(95, 38);
             this.fillButton.TabIndex = 7;
             this.fillButton.Text = "Fill";
             this.fillButton.UseVisualStyleBackColor = true;
@@ -108,10 +116,10 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkKhaki;
-            this.ClientSize = new System.Drawing.Size(452, 374);
+            this.ClientSize = new System.Drawing.Size(603, 460);
             this.Controls.Add(this.fillButton);
             this.Controls.Add(this.sizeInput);
             this.Controls.Add(this.yInput);
@@ -120,6 +128,7 @@
             this.Controls.Add(this.yLabel);
             this.Controls.Add(this.xLabel);
             this.Controls.Add(this.drawButton);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "DrawStar";
             this.ResumeLayout(false);
